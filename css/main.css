@@ -5,8 +5,7 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
     background-size: cover;} 
 
 .container { 
-    height:100vh;
-    
+    height:100vh;    
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 0.4fr 0.3fr 3.6fr 0.4fr;
@@ -21,16 +20,20 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
       "footer";
   }
   
-.logo-area { grid-area: logo-area;
+.logo-area { 
+  grid-area: logo-area;
   background-color: white }
 
-.true-nav { grid-area: true-nav;
+.true-nav { 
+  grid-area: true-nav;
   background-color: white }
 
-.content { grid-area: content;
+.content { 
+  grid-area: content;
   background-color: white}
 
-.footer { grid-area: footer;
+.footer { 
+  grid-area: footer;
   background-color: white } 
     
 #nav{
