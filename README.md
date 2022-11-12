@@ -1,4 +1,5 @@
 # Project Week 1: NZA Law Group Collaboration
+START with index.html
 
 ## Personal Note:
 I, Diana, used Connor's template (html & css) that he created and I forked for the original project we were to design as a team.
