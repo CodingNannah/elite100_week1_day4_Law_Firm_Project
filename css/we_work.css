@@ -23,6 +23,11 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
   background-color:white ;
 }
 
+.img {
+  object-fit: contain;
+  aspect-ratio: 2/1;
+}
+
 .top {
   grid-area: logo-area;
 }
@@ -49,21 +54,62 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
   border-top:1px
 }
 
+/* MID-SECTION */
 #main { 
   grid-area: content;
 }
 
 #content {
-  display: flex;
-  
-  padding: 15px;
+  /* display: flex;
+  flex-direction: column; */
+  margin: 15px;
+  margin-bottom: 10px;
+  height: fit-content;
 }
 
-/* .img {
-  min-width: 100%;
-}  */
+.world-class {
+  display: flex;
+}
 
+/* .world-photo {
+  
+} */
+
+.global-reach-photo {
+  size: 25%;
+}
+
+.world-column {
+  flex: column;
+}
+
+.text-column {
+  margin: 0px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(146,52,47);
+  color: white;
+  padding: 10px;
+}
+
+.text-column h5 {
+  color: grey;
+}
+
+.domestic {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.chic-photo {
+  padding-right: 23px;
+  
+}
+
+/* FOOTER SECTION */
 .footer{
+  margin-top: 10px;
   grid-area: footer;
   border: 1px solid;
   border-bottom: 0;
