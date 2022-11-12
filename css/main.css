@@ -23,6 +23,8 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
     "content"
     "footer";
   background-color:white ;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .top {
@@ -41,6 +43,7 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
 
 .true-nav { 
   grid-area: true-nav;
+  /* background:  rgb(146,52,47); */
 }
 
 #nav{
@@ -55,13 +58,17 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
   grid-area: content;
 }
 
-#content {
-  padding: 15px;
+.duo-content {
+  display: flex;
+  justify-content:space-around;
+
 }
 
 .img {
   /* width: 100%; */
+  min-height: 100vh;
   min-width: 100%;
+  horizontal-align: middle;
   /* : center;*/
 } 
 
@@ -81,7 +88,9 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
   background: url(images/nav_side.jpg) ; 
   color: white;
   margin: 5px;
-  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
   font-size: 14px;
 }
 
