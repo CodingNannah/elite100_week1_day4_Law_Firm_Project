@@ -54,6 +54,8 @@ body{ background: url(images/nza_background.jpg) no-repeat center center fixed;
 }
 
 #content {
+  display: flex;
+  
   padding: 15px;
 }
 
